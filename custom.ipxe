@@ -1,7 +1,11 @@
 #!ipxe
 
-echo Google Compute Engine - iPXE boot via metadata
+echo 
+echo Greep's PXE custom menu
+
 ifstat ||
 dhcp ||
 route ||
+echo
+echo Demarrage en local sur le serveur 10.89.100.2
 chain -ar tftp://10.89.100.2/pxelinux.0
