@@ -4,4 +4,4 @@ echo Google Compute Engine - iPXE boot via metadata
 ifstat ||
 dhcp ||
 route ||
-chain -ar http://metadata.google.internal/computeMetadata/v1/instance/attributes/ipxeboot
+chain -ar tftp://10.89.100.2/pxelinux.0
