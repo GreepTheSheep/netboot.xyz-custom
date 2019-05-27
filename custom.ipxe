@@ -1,6 +1,5 @@
 #!ipxe
 
-ifstat ||
-dhcp ||
-route ||
+ifstat
+
 chain -ar https://boot.netboot.xyz/menu.ipxe
