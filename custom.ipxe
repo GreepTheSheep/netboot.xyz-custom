@@ -3,4 +3,4 @@
 ifstat ||
 dhcp ||
 route ||
-chain -ar https://boot.netboot.xyz/
+chain -ar https://boot.netboot.xyz/menu.ipxe
