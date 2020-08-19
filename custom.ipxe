@@ -2,4 +2,6 @@
 
 ifstat
 
-chain -ar https://boot.netboot.xyz/menu.ipxe
+#chain -ar https://boot.netboot.xyz/menu.ipxe
+
+chain -ar https://greep.cf/netbootxyz-menu.ipxe
